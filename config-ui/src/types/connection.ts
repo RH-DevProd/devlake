@@ -32,12 +32,16 @@ export interface IConnectionAPI {
   password?: string;
   appId?: string;
   secretKey?: string;
+  cloudId?: string;
+  clientId?: string;
+  clientSecret?: string;
   dbUrl?: string;
   companyId?: number;
   proxy: string;
   rateLimitPerHour?: number;
   organization?: string;
   organizationId?: string;
+  service?: string;
   customHeaders?: ICustomHeader[];
   ciTool?: string;
   quayOrganization?: string;
@@ -95,6 +99,9 @@ export interface IConnection {
   password?: string;
   appId?: string;
   secretKey?: string;
+  cloudId?: string;
+  clientId?: string;
+  clientSecret?: string;
   dbUrl?: string;
   companyId?: number;
   proxy: string;
