@@ -62,6 +62,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ant-design/colors@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "@ant-design/colors@npm:8.0.1"
+  dependencies:
+    "@ant-design/fast-color": ^3.0.0
+  checksum: c1dabe3c2c1ae90bdf4f6ccb05e3773882397424d8c66bb13696dc0831b6660f248fbc785399aef28032a2322e196e1c21a9f413463d939bf23a476b76d35e31
+  languageName: node
+  linkType: hard
+
 "@ant-design/cssinjs@npm:^1.18.4":
   version: 1.18.4
   resolution: "@ant-design/cssinjs@npm:1.18.4"
@@ -80,10 +89,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ant-design/fast-color@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@ant-design/fast-color@npm:3.0.1"
+  checksum: 7cf51d3b8be2de0e0bdc7c68a9bb5090be546d0f42e08f6a20614140346cbc3d2853fe01e991e71292e3a00ff0681d18d31510fa4ffdceffdaead2c055ec1918
+  languageName: node
+  linkType: hard
+
 "@ant-design/icons-svg@npm:^4.4.0":
   version: 4.4.2
   resolution: "@ant-design/icons-svg@npm:4.4.2"
   checksum: c66cda4533ec2f86162a9adda04be2aba5674d5c758ba886bd9d8de89dc45473ef3124eb755b4cfbd09121d3bdc34e075ee931e47dd0f8a7fdc01be0cb3d6c40
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons-svg@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "@ant-design/icons-svg@npm:4.6.0"
+  checksum: 3ef9463d84d934fe372f875aeb0c2c4e3f46d4deb056cd2050632401ff29ae6e6d028ff4c05e7e8399b919b0914d87eca00eb0c42d45215d690c245310a71a2f
   languageName: node
   linkType: hard
 
@@ -100,6 +123,21 @@ __metadata:
     react: ">=16.0.0"
     react-dom: ">=16.0.0"
   checksum: b244ed7c36609cf361382ae4f17cb172470c0ac4d9505e98dc09cae625d89df9840df68c8c1fdb0e7603fccc4394b3986da2bab4535d03cfad80cafdbf4bcebb
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons@npm:^6.0.0":
+  version: 6.3.4
+  resolution: "@ant-design/icons@npm:6.3.4"
+  dependencies:
+    "@ant-design/colors": ^8.0.1
+    "@ant-design/icons-svg": ^4.6.0
+    "@rc-component/util": ^1.11.0
+    clsx: ^2.1.1
+  peerDependencies:
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: 437c463a00ad4177e41f02780b93627839a237ae51025e8cd1ad7fbbee76e32921b5b76e379d76c8f73de92c248a6e53147b0b80696dfa550a5549b5229ab222
   languageName: node
   linkType: hard
 
@@ -2515,6 +2553,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rc-component/util@npm:^1.11.0":
+  version: 1.14.0
+  resolution: "@rc-component/util@npm:1.14.0"
+  dependencies:
+    is-mobile: ^5.0.0
+    react-is: ^19.2.7
+  peerDependencies:
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+  checksum: 368bc2c267b2ff66181adf227b0c388459de79015b9722d082f2ac3dbbbbaecc32981fe0bb1a568196171dbc02f2ab1209cbef2b66a2daff2fafa8654fb74189
+  languageName: node
+  linkType: hard
+
 "@reduxjs/toolkit@npm:^2.2.1":
   version: 2.2.1
   resolution: "@reduxjs/toolkit@npm:2.2.1"
@@ -4288,6 +4339,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: acd3e1ab9d8a433ecb3cc2f6a05ab95fe50b4a3cfc5ba47abb6cbf3754585fcb87b84e90c822a1f256c4198e3b41c7f6c391577ffc8678ad587fc0976b24fd57
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -4369,7 +4427,7 @@ __metadata:
   resolution: "config-ui@workspace:."
   dependencies:
     "@ahooksjs/use-url-state": ^3.5.1
-    "@ant-design/icons": ^5.3.0
+    "@ant-design/icons": ^6.0.0
     "@reduxjs/toolkit": ^2.2.1
     "@testing-library/jest-dom": ^6.9.1
     "@testing-library/react": ^16.3.2
@@ -6453,6 +6511,13 @@ __metadata:
   version: 2.0.2
   resolution: "is-map@npm:2.0.2"
   checksum: ace3d0ecd667bbdefdb1852de601268f67f2db725624b1958f279316e13fecb8fa7df91fd60f690d7417b4ec180712f5a7ee967008e27c65cfd475cc84337728
+  languageName: node
+  linkType: hard
+
+"is-mobile@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "is-mobile@npm:5.0.0"
+  checksum: 426f6bacfffa4166e9af49a915f3389d27c4cbc5cdce1585c3f5f11a0c2983c6d3d2c739985c32f948c0fe4f6b66fc88f71d8f79802608be232d799a27615a37
   languageName: node
   linkType: hard
 
@@ -8894,6 +8959,13 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^19.2.7":
+  version: 19.3.0
+  resolution: "react-is@npm:19.3.0"
+  checksum: c7170b2f1f8bc91cb14c94849a5463a84360b8737d9829aa48c9ef314c1442bc87a2e93e167da45c74ebdbf5b912bdc2fab3c993df495adde3223d533edd6f3b
   languageName: node
   linkType: hard
 
