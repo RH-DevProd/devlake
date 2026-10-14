@@ -4387,7 +4387,7 @@ __metadata:
     antd: ^5.14.2
     axios: ^1.6.7
     classnames: ^2.5.1
-    cron-parser: ^4.9.0
+    cron-parser: ^5.0.0
     cron-validate: ^1.4.5
     dayjs: ^1.11.10
     eslint: ^8.56.0
@@ -4490,12 +4490,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cron-parser@npm:^4.9.0":
-  version: 4.9.0
-  resolution: "cron-parser@npm:4.9.0"
+"cron-parser@npm:^5.0.0":
+  version: 5.10.2
+  resolution: "cron-parser@npm:5.10.2"
   dependencies:
-    luxon: ^3.2.1
-  checksum: 3cf248fc5cae6c19ec7124962b1cd84b76f02b9bc4f58976b3bd07624db3ef10aaf1548efcc2d2dcdab0dad4f12029d640a55ecce05ea5e1596af9db585502cf
+    luxon: ^3.7.2
+  checksum: 5237693e16554f963d00daefe2f720ad77590cdc49e88328eafaeb5b6bccf2e8f6bc139d2636e5a9378829102d1a31abefc58eecfbc0e0c3e027ab02e74a7355
   languageName: node
   linkType: hard
 
@@ -7042,10 +7042,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.2.1":
-  version: 3.4.4
-  resolution: "luxon@npm:3.4.4"
-  checksum: 36c1f99c4796ee4bfddf7dc94fa87815add43ebc44c8934c924946260a58512f0fd2743a629302885df7f35ccbd2d13f178c15df046d0e3b6eb71db178f1c60c
+"luxon@npm:^3.7.2":
+  version: 3.7.2
+  resolution: "luxon@npm:3.7.2"
+  checksum: fc115fd6a7acc2adb7df3476d20c672beb2985d2a034294282f2c31de8c07f29a15460f5a2b7dd0107797be0dab545ddbc64862662b059fb18c1931a726064f4
   languageName: node
   linkType: hard
 
